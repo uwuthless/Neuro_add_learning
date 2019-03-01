@@ -7,7 +7,7 @@ config = {'datapath':'./../drive/My Drive/work/DataBowl3/stage2/stage2/',
          'classifier_model':'net_classifier',
          'classifier_param':'./model/classifier.ckpt',
          'n_gpu':1,
-         'n_worker_preprocessing':None,
+         'n_worker_preprocessing':4,
          'use_exsiting_preprocessing':False,
          'skip_preprocessing':False,
          'skip_detect':False}
